@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/style.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portofolio | Jesselyn Mu</title>
+
+</head>
+
+<body>
+    <!--Header-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Jesselyn Mu</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#portofolio" class="nav__link">Portofolio</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <!--Close Header-->
+
+    <main class="l-main">
+        <!--Home-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi, <br>I'm <span class="home__title-color auto-input"></span></h1>
+                <p class="home__p">Mahasiswi UPN Veteran Jakarta</p>
+                <br>
+                <p class="home__p">S1 Informatika</p>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/jesselyn-mu-84b3551a0/" class="home__social-icon"><i
+                        class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/jesselynmu" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/jesselynmu_/" class="home__social-icon"><i
+                        class='bx bxl-instagram'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/images/jemufoto.png">
+            </div>
+        </section>
+        <!--Close Home-->
+
+        <!--About-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__text">
+                    <img src="assets/images/kom.png" class="about__img">
+                </div>
+
+                <div>
+                    <p class="about__text">I am a student who has a high ambition to learn new things and expand my
+                        experience in the field
+                        that I am passionate about. I am currently studying at UPN Veteran Jakarta majoring in
+                        Informatics. I'm interest to web devolopment and UI/UX Design</p>
+                </div>
+            </div>
+        </section>
+        <!--Close About-->
+
+        <!--Work-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container">
+                <div class="work__img">
+                    <img src="assets/images/brp.png">
+                    <h2>BRP Indonesia</h2>
+                    <h3>Mei 2021 - Agustus 2021</h3>
+                    <p>Worked as an inventory control staff</p>
+                </div>
+            </div>
+        </section>
+        <!--Close Work-->
+
+        <!--Portofolio-->
+        <section class="portofolio section" id="portofolio">
+            <h2 class="section-title">Portofolio</h2>
+
+            <div class="portofolio__container bd-grid">
+                <div class="port__img">
+                    <img src="assets/images/Port1.jpeg">
+                    <h3 style="text-align: center;">Web Yoasobi</h3>
+
+                </div>
+                <div class="port__img">
+                    <img src="assets/images/Port2.jpeg">
+                    <h3 style="text-align: center;">Design UI/UX Web</h3>
+                </div>
+                <div class="port__img">
+                    <img src="assets/images/Port3.JPG">
+                    <h3 style="text-align: center;">Design UI/UX Aplikasi</h3>
+                </div>
+            </div>
+        </section>
+        <!--Close Portofolio-->
+
+        <!--Contact-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form id="contact__form">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input type="text" placeholder="Input your name" class="contact__input" name="name">
+
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" placeholder="Input your email" class="contact__input" name="email">
+
+                    <label for="pesan" class="form-label">Message</label>
+                    <textarea name="pesan" rows="5" class="contact__input"></textarea>
+
+                    <input type="submit" value="Submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+        <!--Close Contact-->
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <p class="footer__title">Jesselyn Mu &#169; 2021 copyright</p>
+    </footer>
+    <!--Close Footer-->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed('.auto-input', {
+            strings: ['Jesselyn Mu', 'Web Developer', 'UI/UX Designer'],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        })
+    </script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <script src="assets/script.js"></script>
+</body>
+
+</html>
